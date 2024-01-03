@@ -1,0 +1,325 @@
+
+@font-face{
+	font-family: beni;
+	src: url("BeniBold.ttf")	
+}
+
+body{
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 0px;
+	background-color:  #F1F2F1;
+	
+	
+}
+
+
+a{
+	text-decoration: none
+}
+
+a:hover{
+	text-decoration: none
+}
+
+h1,h2,h3,h4{
+	margin: 0px;
+	padding: 0px 
+}
+
+
+.fonte-title{
+	font-weight:bolder;
+	font-style: italic;
+	font-size:35px
+}
+
+.italico{
+	font-style: italic;
+}
+
+.texto-cinza{
+	color:dimgray
+}
+
+.texto-branco{
+	color:white
+}
+
+.texto-preto{
+	color: black
+}
+
+.fonte-media{
+	font-size: 22px;
+}
+
+.background-white{
+	background-color: white
+}
+
+
+
+#content{
+	display:flex;
+	flex-direction: column;		
+	font-family: "neue-haas-grotesk-display", sans-serif;
+	align-items: center;
+	background-color: #F1F2F1;
+	max-width: 1600px;
+	height: 100vh;
+	
+	
+	
+}
+
+
+#header{
+	display:flex;
+	flex-direction: column;
+	align-items: center
+}
+
+.retangulo-rosa{
+	height: 16px;
+	width: 180px;
+	background-color: #e8444f;
+	margin: 0px 0px 75px 0px
+	
+}
+
+#menu{
+	
+	display:flex;
+	flex-direction: column;		
+	align-items: center;
+	margin: 45px 0px
+	}
+
+.oque-voce-precisa{
+	margin: 15px 0px
+}
+
+.boxes-area{
+	display:flex;
+	flex-direction: column;		
+	align-items: center;
+}
+
+.quadrado-branco{
+	display: flex;
+	justify-content: center;
+	background-color: white;
+	width: 390px;
+	padding: 18px;
+	box-shadow: 0px 0px 25px -10px #15253E ;
+	margin: 10px 10px;
+	color:#15253E;
+	border-radius: 18px
+	
+	
+}
+
+
+
+
+#compre-aqui{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center
+	
+}
+
+.buttom-compreaqui{
+	display:flex;
+	justify-content: center;
+	width: 230px;
+	background-color: #e8444f;
+	padding: 12px 0px;
+	border-radius: 20px;
+	margin: 12px 0px
+	
+}
+
+
+#footer{
+	margin-top: 75px
+}
+	
+
+
+#header-dois{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 500px;
+	justify-content: space-around;
+	margin: 30px 0px 30px 0px
+}
+
+.image-header-dois{
+	margin-left: -60px
+}
+
+.voltar-header-dois{
+	color: #474747;
+	margin-right: -60px
+}
+
+#menu-dois{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 20px 0px 20px 0px
+	
+}
+
+.retangulo-amarelo{
+	height: 20px;
+	width: 300px;
+	background-color: #fbbb01;
+	margin: 0px 0px 75px 0px;
+	margin: 0px 0px -20px 0px
+}
+
+.retangulo-verde{
+	height: 20px;
+	width: 300px;
+	background-color: #b2ef9b;
+	margin: 0px 0px 75px 0px;
+	margin: 0px 0px -20px 0px
+}
+
+.retangulo-vermelho{
+	height: 20px;
+	width: 300px;
+	background-color: #e8444f;
+	margin: 0px 0px 75px 0px;
+	margin: 0px 0px -20px 0px
+}
+
+.beni-font{
+	font-family: beni, sans-serif ;
+	font-size: 35px;
+	letter-spacing: 3px
+	
+}
+
+
+
+
+#opcoes-de-produtos{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+	
+}
+
+.arraste-para-o-lado{
+	margin: 0px 0px 40px 0px
+}
+
+.recomendado-amarelo{
+	display: flex;
+	flex-direction: column;
+	background-color: #fbbb01;
+	padding: 8px 18px;
+	border-radius: 12px;
+	align-items: center;
+	justify-content: center;
+	width: 180px;;
+	margin: 0px 0px 0px 0px
+
+}
+
+
+.recomendado-vermelho{
+	color:white;
+	display: flex;
+	flex-direction: column;
+	background-color: #e8444f;
+	padding: 8px 18px;
+	border-radius: 12px;
+	align-items: center;
+	justify-content: center;
+	width: 180px;;
+	margin: 0px 0px 0px 0px
+
+}
+
+.recomendado-verde{
+	display: flex;
+	flex-direction: column;
+	background-color: #b2ef9b;
+	padding: 8px 18px;
+	border-radius: 12px;
+	align-items: center;
+	justify-content: center;
+	width: 180px;;
+	margin: 0px 0px 0px 0px
+
+}
+
+.container-itens{
+	
+	padding: 30px 30px 20px 20px;
+	width: 250px;
+	margin: 0px 0px;
+	border-radius: 8px;
+	box-shadow: -5px 2px 25px -15px #15253E 
+}
+
+
+.container-options{
+	align-items: center;
+	flex-direction: column;
+	display: flex;
+	margin: 0px 20px 20px 20px
+}
+
+
+.preco-do-produto{
+	
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	margin: 10px 0px 0px 0px
+}
+
+
+.sabores h2{
+	font-weight:lighter;
+	font-style: italic;
+}
+
+#title{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0px 0px 20px 0px
+}
+
+.letra-normal{
+	font-size: 25px;
+	margin: -10px  5px
+}
+
+
+.margin-negative{
+	margin: 0px 0px -260px 0px
+}
+
+.margin-negative-dois{
+	margin: 0px 0px -260px 0px
+}
+
+.fake-marginrsrs{
+	margin: 200px 0px 0px 0px
+}
+
+#fakemargin-dois{
+	margin: 25px 0px 0px 0px
+}
